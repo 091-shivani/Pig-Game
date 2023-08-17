@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(247, 40, 75);
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.player {
+    width: 35vw;
+    height: 69vh;
+    display: flex;
+    flex-direction: column;
+   background-color:rgba(255, 255, 255, 0.511);
+   
+}
+.player1{
+    border-radius: 9px 0px 0px 9px;
+}
+.player2{
+    border-radius: 0px 9px 9px 0px;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 57px;
+    text-align: center;
+}
+.score{
+    font-size: 52px;
+    text-align: center;
+    color: rgb(247, 40, 75);
+}
+.current{
+    background-color: rgb(247, 40, 75);
+    width: 116px;
+    text-align: center;
+    margin: auto;
+    height: 60px;
+    padding-top: 11px;
+    border-radius: 8px;
+    color: white;
+}
+.currentscore{
+    font-size: 26px;
+}
+.playeractive{
+    background-color:rgba(255, 255, 255, 0.75);
+}
+.button{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 18vh;
+}
+.btn{
+    border: 2px solid white;
+    background-color: white;
+    width: 14vw;
+    height: 5vh;
+    border-radius: 22px;
+}
+img{
+    width: 8vw;
+    margin-bottom: 8vw;
+}
+.newgame{
+    margin-bottom: 5vw;
+}
+.rolldice{
+    position: absolute;
+    top: 42vh;
+}
+
+.hidden{
+    display:none;
+}
+.hold{
+    position: absolute;
+    top: 50vh;
+}
+.winner{
+    width: 20vw;
+}
+
